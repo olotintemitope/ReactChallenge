@@ -2,6 +2,8 @@
 
 This is a simple calendar that let you add a reminder and edit a reminder with a specific date/time and location, but the weather location status is not working yet.
 
+- Live site: [calendar](https://mercy-calendar.netlify.app/)
+
 ## Installing dependencies
 
 You have to run the following command in order to install the project neccessary dependencies. 
@@ -20,11 +22,12 @@ To build the view layers of the app
 
 ### Redux 
 
-Stores the state of the application and it is also responsible for predictable state changes through actions.
+Stores the state of the application and it is also responsible for predictable state changes through actions. 
 
 ### Redux saga 
 
-A redux middleware that will handle async actions as well as complex actions, actings as a process manager.
+A redux middleware that will handle async actions as well as complex actions, actings as a process manager. An intuitive Redux side effect manager.
+[redux-saga](https://redux-saga.js.org/)
 
 ### Tailwindcss
 
