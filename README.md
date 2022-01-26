@@ -1,47 +1,34 @@
-<div align="center">
-    <img src="https://raw.githubusercontent.com/Jobsity/ReactChallenge/main/src/assets/jobsity_logo_small.png"/>
-</div>
+# Calendar with reminder implentation
 
-## Description
+This is a simple calendar that let you add a reminder and edit a reminder with a specific date/time and location, but the weather location status is not working yet.
 
-This project is designed to test your knowledge of front-end web technologies and assess your ability to create front-​end UI products with attention to details, cross-browser compatibility, standards, and  reusability.
+- Live site: [calendar](https://mercy-calendar.netlify.app/)
 
+## Installing dependencies
 
-## Assignment
+You have to run the following command in order to install the project neccessary dependencies. 
 
-The goal of this exercise is to create a demo calendar application using React.
+> npm install | yarn install
 
-You should start by rendering a single month view of a calendar for the current month, along the lines of the illustration below:
-<div align="center">
-    <img src="https://raw.githubusercontent.com/Jobsity/ReactChallenge/main/src/assets/CalendarSample.png"/>
-</div>
+## Running the app
 
-## Mandatory features
- - Ability to add "*reminders*" (max. 30 characters) for a day and time specified by the user. Also, include a city.
- - Ability to edit reminders - including changing text, city, day and time.
- - Add a weather service call from [OpenWeather](https://openweathermap.org/forecast16) and get the weather forecast (e.g. Rain) for the date of the calendar reminder based on the city.
+> npm start | yarn run 
 
-## Bonus (Optional)
+# Technologies used
 
-- Expand the calendar to support more than the current month or year.
-- Properly handle overflow when multiple reminders appear on the same date.
-- Unit test the functionality: *Ability to add "*reminders*" (max. 30 characters) for a day and time specified by the user. Also, include a city.*
+### React 
 
-## Considerations
+To build the view layers of the app
 
- - Show us in the Readme all relevant information about your project.
- - The project is completely focused on Front-end. Ignore the Back-end.
- - Create your Calendar using the route `/calendar`
- - Feel free to use small helper libraries for:
- -- UI Elements.
- -- Date/Time handling.
- - **You must create the calendar component yourself**. Do not user calendar libraries like FullCalendar or Bootstrap Calendar.
- - Provide working API keys to any external API you use.
- - We have implemented Redux thunk for state management, but you may use any state manager you are familiar with.
- - Show us your capabilities on CSS and styling, if possible.
+### Redux 
 
-# How to deploy
+Stores the state of the application and it is also responsible for predictable state changes through actions. 
 
- - Run `npm install` | `yarn install` to install all dependencies.
- - Run `npm start`   | `yarn run` to run the app locally.
- - You can find the project running on `localhost:3000`.
+### Redux saga 
+
+A redux middleware that will handle async actions as well as complex actions, actings as a process manager. An intuitive Redux side effect manager.
+[redux-saga](https://redux-saga.js.org/)
+
+### Tailwindcss
+
+This is a css framework for building modern website.
