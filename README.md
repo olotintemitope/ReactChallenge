@@ -1,4 +1,4 @@
-# Calendar with reminder implentation
+# Calendar with reminder implementation
 
 This is a simple calendar that let you add a reminder and edit a reminder with a specific date/time and location, but the weather location status is not working yet.
 
